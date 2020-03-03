@@ -150,7 +150,7 @@ cechy dobrych wymagan
 
 punkt widzenia - definicja
       bezposrednie
-      posrednie
+      posrednie (kierownictwo, administratorzy, bezpieczenstwo)
       zwiazane z dziedzina
 
 
@@ -160,6 +160,41 @@ punkt widzenia sa zrodlem rozmaitych oczekiwanm wizji i konkretny wymagan w stos
 jezyk naturalny
       latwy dla klienta, latwy do sporzadzeni
 
+
+tabela wymagan
+       funkcje, stan wejscowych, zrodel, warnunkow wstepnych
+
+
+kwestionariusze
+	sa sposobeb na pozyskanie informacji od wielu osob jednoczesnie. metoda jest skuteczna pod warunkiem dobrego sformulowania pytan w kwestionariuszu
+wywiad
+	selfexpenatory
+
+
+opowiastki uzytkownikow
+	   krotkie jednozdaniowe zapiski
+	   nazwa wykonawcy
+
+	   metoda INVEST (od pierwszch liter)
+	   
+	   niezalezna: **I**ndepedent
+		wymagania zawarte w ioiwuastjach powinny byc niezlezne do wypelniania, realizacja w dowololnej kolejnosci
+	nienegocjowalne **N**onnegtiable
+	pokazujaca korzysci **V**aluable
+	mozliwa do oszecowania **E**stimable
+	mala **S**mall
+	testowalna **T**estable
+	
+warsztaty
+
+obserwacja badz sledzenie
+	   sam lub obserwacja
+	   wywoluje w nich zagrozenie (zmienia sie rutynowosc, dokladnosc)
+	   	    czynnosci
+		    powody
+		    zasady i materialu
+		    wykonanie czynnosci
+		    postulaty uzytkownika
 
 atrybut asocjacyjny
 
@@ -188,3 +223,9 @@ wymagania funkconalne
 
 wymagania niefunkconalnie
 	  zgodnosc z prawem, niezawodnosc, ograniczen czasowych, wykorzysanie zasobow, bezpieczenstwa, wspolpraca z okreslonymi narzadziami, tajnosc, prywatnosc
+
+klirent nie wie w jakis posob osagnac zalozone cele
+cele klienta mozna osiagnac na wiele sposob
+duze systemy wykorzystowane sa przez wielu uzytkownikowm, ktorych cele moga byc spreczne
+
+
