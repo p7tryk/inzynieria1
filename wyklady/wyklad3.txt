@@ -1,1 +1,101 @@
 2020-03-03
+
+w teorin nauk o zarzadaniu jednym z nurtow zarzadzania organizacja jest podejscie procesowe, ktore zaklada horyzontalne oraz kompleksowe spojrenie na strukture organizacji
+
+proces to zbior dzialan
+
+proces biznesowy cechuje sie
+       jasnym okresleniem mierzalnego celu, dla ktorego jest definiowany
+       zdefiniowanym wejsciem oraz wyjsciem
+       powtarzalnoscia
+       mierzalnoscia wynikow
+       mozliwym wjesciem poza granice jednostek organizacyjnych
+
+3 rodzaje
+  procesy zarzadcze
+  procesy operacyjne
+  	  procesy ksztaltujace glowna dzialanosc gospordarcza organizacji i uczestinczace w tworzeniu lanucha wartosci "zakuo "sprzedarz" "marketing" "produkcja"
+  procesy pomocnicze
+  	  "ksiegowosc" "kady i placy", "dzial IT"
+
+konieczne jest wyznaczenie wlasciciela procesu (nadzorowanie przebiegu)
+
+do miernikow procesow
+   czas trwania
+   elastycznosc
+   jakosc
+   koszt
+   terminowosc
+   znacznie dla organizacji
+   znaczenia dla klienta
+
+na najwyzszym poziome
+   nazwa procesu
+   dane wejsciowe (surowce)
+   dane wyjsciowe (produkt)
+
+proces jest czarna skrzynka
+
+podstawowe elemtami opisu procesu (czesco wymagania formlanymi)
+
+	   operacje
+	   trajektoria
+	   wykonawcy (aktorzy) osoby oraz systemy operacyjne
+	   zdarzenia
+		inicjujace
+		wszystmujace i uwalniajace
+		wyjatki
+		synchronizujace
+		wynikikowe
+	   elementy kontrolne - balans obciazenia statystyka
+
+notacja - elemnty tworzace jezyk modelowania (romb, prostokat)
+semantyka - opis znaczenia notacji (co robi w danym jezyku taki romb)
+
+graficznej reprezentacji
+
+bpmn
+uml
+epc
+erm
+cmmn
+dfd
+
+podstawowym celem bpmn jest dostaczenie notacji latwo zrozumialej dla wszystkich
+	    anlitycy biznesowi
+	    programisci
+	    ludzi biznesu ktorzy zarzadzaja procesami
+
+bpmn
+	obiekty zwiazne z definiwanie przeplywu procesu, do ktorego nalezy zdarzenie
+
+-------------------
+
+zadanie
+	prostokat w postaci prostokata z zaokraglowanymi rogami
+przyplyw sterowanie
+	strzalka
+
+zdarzenie oznaczamy okregiem
+	 grubosc i rodzaj obramowania (pojedyncza podwojna pogrubiona
+	 styl linia (ciagla przerywana)
+	 ikona wewnatrz okregu
+	 rodzaj ikony(konturowy, wypelniony)
+
+zdarzenie inicjujace i konczace(moze byc wiecej niz jedne) (mozna pominac jawne zadanie poczatkowe)
+zdarzenia posrednie
+	  1 rodzaj - proces oczekujacy na zdarzenie
+	  2 rodzaj - zdarzenia krawedziowe
+zdarzenie terminujace
+	  przerwanie procesu
+zdarzenia nieprzyrywalace
+
+bramki (romb) - mechanizm rozgalezienia moze miec opcje default
+       albo   xor(romb z X) - jedna odpowiedz (switch case z break; za kazdym)
+       lub    or(romb z kolkiem) - wszystkie warunki sa sprawdzane i wybierane (switch **bez** break;)
+       I      and(romb z +) - synchronizacja
+       bramka sterowana zdarzeniami
+
+pasy plywackie - role biznesowe
+
+zbiory pasy plywackich - jednostka organizacyjna
