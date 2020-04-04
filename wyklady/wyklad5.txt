@@ -1,0 +1,19 @@
+zdalnie 2020-04-01
+statyczne atrybuty - jedne dla kazdej instancji
+abstrakcyjne
+
+
+mocne zwiazania powinny byc rzadko uzywane (dziedziczenie)
+
+rozne zwiazki
+      dziedzicenie (ciagla linia grot niezamalowany)
+      zaleznosc - interfejs kontrahenta ma pokazac zawartosc klasy kontrahenta (linia przerwana)
+      		aby pozbyc sie zalezonsci mozna zamiast do calego obiektu mozna odwolac sie do jego atrybutów.
+
+	asocjacja jest silniejszym wiazaniem niz zaleznosc. Reprezentuje czasowe powiazanie pomiedzy obiektam i dwoch klas - odoznieniu od zaleznosci, w asocjaci dwie klasy nie wplywaja na siebie
+	asocjacja z kierunkiem (grot otwarty)
+	klasa asocjacyjna(tak jak encja slaba) jezeli potrzebujemy dodac atrybuty DO SAMEGO POWIAZANIA
+	agregacja czesciowa nie istnieje powszechna akceptowana definicja agregacji. jest w rzeczywistosci silniejaszaw wesja asocjacji. jest specialnym rodzajem asocjacji wykorzywanym przede wszystkim do modelowania zwiazku czesc calosc co oznacza ze elemnty czesciowe moga nalezec do wiekszej calosci. (waznym jest faktem ze usuniecie klasy calosc nie wplywa na istniei klasy czesc)
+	agregacja calkowita jest calosc czesc, w ktorej calosc jest wylacznym wlascicielem czesci tworzy je i zarzadza(czesc nie moze istniec bez calosci)
+	uogolnienie(dziedziczenie)
+	
