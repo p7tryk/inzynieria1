@@ -1,0 +1,13 @@
+2020-04-28
+scenariusze
+
+Magazyn wysyla zapotrzebowanie o produkt. "Kontakt z hurtownia" analizuje i wysyla zapytanie do roznych hurtownii. Hurtownia odsyla cene. Kierownik wybiera oferte (lub nie i konczy). Dzial zamowienia tworzy zamowienie, przekazuje platnosci. Po udanej platnosci (lub nie i konczy) czeka na towar. Towar przychodzi do magazynu i konczy sie process.
+
+Jezeli nie przychodzi to kierownik podejmuje decyzje o przeslaniu ponownym towar jest wysylany ponownie
+
+Aktorzy:
+	Magazyn, "Kontakt z Hurtownia", "Dzial Zamowienia", Płatności, Kierownik
+
+Czynnosci:
+	rejestracja zapotrzebowania, zapytanie do hurtownii, odeslanie ceny, wybranie oferty, tworzenie zamowienia, wykonanie platnosci, czekanie na towar, przyjscie towaru
+
